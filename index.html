@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taller 1</title>
+    <title>Taller 2</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
@@ -15,27 +15,7 @@
                 <div class="card">
                     <div class="card-header"><h2>Datos Personales</h2></div> 
                      <table class="table">
-                    <tbody>
-                        <tr>
-                            <td>Código</td>
-                            <td>201819447</td>
-                        </tr>
-                        <tr>
-                            <td>Cédula</td>
-                            <td>1019146005</td>
-                        </tr>
-                        <tr>
-                            <td>Edad</td>
-                            <td>21 Años</td>
-                        </tr>
-                        <tr>
-                            <td>Dirección</td>
-                            <td>Carrera 79 # 127C-7</td>
-                        </tr>
-                        <tr>
-                            <td>Teléfono</td>
-                            <td>3186907312</td>
-                        </tr>
+                    <tbody id="student">
                     </tbody>
                 </table>
             </ul>
@@ -47,7 +27,7 @@
                      <form style="margin:10px;">
                         <div class="form-row">
                           <div class="col">
-                              <input type="text" class="form-control" id="search-box" placeholder="Filtrar por nombre">
+                              <input type="text" class="form-control" id="search-box" placeholder="Filtrar por nombre o creditos">
                           </div>
                           <div class="col">
                               <button type="button" id="button-filterByName" class="btn btn-success">Aplicar</button>
@@ -75,6 +55,8 @@
     </div>
     <script type="module" src="./scripts/course.js" ></script>
     <script type="module" src="./scripts/dataCourses.js" ></script>
+    <script type="module" src="./scripts/student.js" ></script>
+    <script type="module" src="./scripts/dataStudent.js" ></script>
     <script type="module" src="./scripts/main.js"></script>
 </body>
 </html>
